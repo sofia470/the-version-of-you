@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#261f1b">
+<title>The Version Of You — Ivo</title>
+<meta name="description" content="The Version Of You — a slow-burn YA romance set in Wellington, Michigan. New chapters Thursdays at 6 PM on Wattpad.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--cream:#f4ecdf;--paper:#eadbc7;--paper2:#f8f1e7;--ink:#2c2520;--wine:#743a34;--rust:#a25432;--moss:#4c5142;--gold:#c79a61;--muted:#806e60;--line:rgba(55,43,34,.18);--dark:#28231f;--radius:22px;--shadow:0 18px 50px rgba(49,34,24,.12)}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:80px}body{margin:0;background:var(--cream);color:var(--ink);font-family:"DM Sans",sans-serif;overflow-x:hidden}body.menu-open{overflow:hidden}a{color:inherit}button{font:inherit}.wrap{width:min(1160px,calc(100% - 40px));margin:auto}.serif,h1,h2,h3{font-family:"Cormorant Garamond",serif}.eyebrow{font-size:10px;letter-spacing:.24em;text-transform:uppercase;font-weight:600;color:var(--rust)}.display{font-size:clamp(46px,7vw,82px);line-height:.91;letter-spacing:-.035em;font-weight:500;margin:14px 0 26px}.copy{font-family:"Cormorant Garamond",serif;font-size:clamp(20px,2.2vw,27px);line-height:1.5}.small{font-size:12px;line-height:1.75;color:var(--muted)}section{padding:96px 0}.btn{min-height:46px;display:inline-flex;align-items:center;justify-content:center;padding:0 20px;border:1px solid currentColor;text-decoration:none;text-transform:uppercase;letter-spacing:.15em;font-size:10px;font-weight:600;transition:.2s}.btn:hover{transform:translateY(-2px)}.btn.light{background:#fff8ec;color:#2b2420;border-color:#fff8ec}.btn.ghost{color:#fff8ec;border-color:rgba(255,255,255,.55);background:rgba(255,255,255,.04);backdrop-filter:blur(8px)}.btn.wine{background:var(--wine);color:#fff8ec;border-color:var(--wine)}
+/* nav */
+.nav{position:fixed;top:0;left:0;right:0;z-index:50;color:#fff8ec;background:linear-gradient(180deg,rgba(24,19,16,.55),transparent);transition:.25s}.nav.scrolled{background:rgba(38,31,27,.94);backdrop-filter:blur(14px);box-shadow:0 1px rgba(255,255,255,.08)}.navin{height:72px;display:flex;align-items:center;justify-content:space-between}.brand{text-decoration:none;font-family:"Cormorant Garamond",serif;font-size:20px;font-weight:600;letter-spacing:.03em}.links{display:flex;align-items:center;gap:24px}.links a{text-decoration:none;font-size:10px;text-transform:uppercase;letter-spacing:.15em}.menu{display:none;width:46px;height:46px;border:0;background:transparent;color:#fff;position:relative}.menu span,.menu:before,.menu:after{content:"";position:absolute;left:11px;right:11px;height:1px;background:currentColor;transition:.2s}.menu:before{top:15px}.menu span{top:22px}.menu:after{top:29px}.menu.open span{opacity:0}.menu.open:before{top:22px;transform:rotate(45deg)}.menu.open:after{top:22px;transform:rotate(-45deg)}
+/* hero */
+.hero{min-height:100svh;position:relative;display:flex;align-items:flex-end;color:#fff8ec;background:linear-gradient(180deg,rgba(31,23,18,.08) 0%,rgba(31,23,18,.2) 45%,rgba(31,23,18,.83) 100%),url('https://images.unsplash.com/photo-1476820865390-c52aeebb9891?auto=format&fit=crop&w=2000&q=88') center/cover}.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(49,27,19,.36),transparent 62%);pointer-events:none}.hero-copy{position:relative;z-index:2;padding:150px 0 70px;max-width:860px}.hero h1{font-size:clamp(72px,13vw,158px);line-height:.71;letter-spacing:-.06em;font-weight:500;margin:24px 0 34px}.hero h1 em{display:block;font-weight:400;margin-left:.27em}.hero .sub{font-family:"Cormorant Garamond",serif;font-size:clamp(22px,3vw,31px);line-height:1.3;max-width:650px}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:30px}.release-pill{position:absolute;z-index:3;right:max(20px,calc((100vw - 1160px)/2));bottom:70px;width:245px;padding:18px;border:1px solid rgba(255,255,255,.35);background:rgba(39,28,23,.45);backdrop-filter:blur(12px)}.release-pill b{display:block;font-family:"Cormorant Garamond",serif;font-size:27px;margin:6px 0}.release-pill span{font-size:9px;letter-spacing:.17em;text-transform:uppercase;opacity:.78}
+/* release strip */
+.now{padding:0;background:var(--wine);color:#fff5e9}.nowin{min-height:88px;display:grid;grid-template-columns:auto 1fr auto;gap:24px;align-items:center}.live-dot{width:9px;height:9px;border-radius:50%;background:#e9b479;box-shadow:0 0 0 6px rgba(233,180,121,.12)}.now strong{font-family:"Cormorant Garamond",serif;font-size:23px;font-weight:500}.now p{margin:2px 0 0;font-size:10px;letter-spacing:.12em;text-transform:uppercase;opacity:.68}.now a{text-decoration:none;font-size:10px;text-transform:uppercase;letter-spacing:.15em;border-bottom:1px solid rgba(255,255,255,.55);padding-bottom:3px}
+/* story */
+.story-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:80px;align-items:start}.story-note{position:relative;background:var(--paper2);padding:34px 34px 44px;box-shadow:var(--shadow);transform:rotate(1.2deg);margin-top:26px}.story-note:before{content:"";position:absolute;width:100px;height:25px;background:rgba(212,190,151,.45);top:-11px;left:50%;transform:translateX(-50%) rotate(-2deg)}.story-note blockquote{font-family:"Cormorant Garamond",serif;font-size:30px;line-height:1.2;font-style:italic;margin:0}.story-note small{display:block;margin-top:20px;text-transform:uppercase;letter-spacing:.15em;color:var(--muted)}
+/* scrapbook */
+.scrap{background:#d9c6aa;overflow:hidden}.scrap-head{display:flex;justify-content:space-between;gap:30px;align-items:end}.scrap-head p{max-width:430px}.board{margin-top:45px;min-height:600px;position:relative}.paper{position:absolute;background:#f8f0e2;box-shadow:0 16px 35px rgba(62,45,31,.13);padding:24px}.paper h3{font-size:31px;margin:4px 0 12px}.paper p{font-size:12px;line-height:1.65;margin:0;color:#6f5d50}.paper.one{left:2%;top:25px;width:31%;transform:rotate(-3deg)}.paper.two{left:35%;top:95px;width:28%;transform:rotate(2deg);background:#f0e3cf}.paper.three{right:2%;top:8px;width:31%;transform:rotate(3.2deg)}.paper.four{left:12%;top:330px;width:35%;transform:rotate(1.2deg)}.paper.five{right:10%;top:350px;width:35%;transform:rotate(-2deg)}.scribble{font-family:"Cormorant Garamond",serif;font-size:44px;font-style:italic;color:var(--wine);line-height:.9}.ticket{border:1px dashed #8b735f;padding:15px;margin-top:15px;display:flex;justify-content:space-between;font-size:10px;letter-spacing:.13em;text-transform:uppercase}.chem{font-family:"Cormorant Garamond",serif;font-size:25px;margin:12px 0}.msg{font-size:12px;padding:10px 12px;border-radius:15px;background:#ded6cb;margin:8px 0;max-width:90%}.msg.me{margin-left:auto;background:#cbd7c3}
+/* characters */
+.characters{background:var(--paper2)}.character-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:40px}.character{border:1px solid var(--line);min-height:360px;padding:28px;display:flex;flex-direction:column;justify-content:space-between;transition:.2s;background:rgba(255,255,255,.28)}.character:hover{transform:translateY(-5px);box-shadow:var(--shadow)}.character .grade{font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:var(--wine)}.character h3{font-size:45px;line-height:.9;margin:18px 0 10px;font-weight:500}.character p{font-family:"Cormorant Garamond",serif;font-size:19px;line-height:1.4}.tagrow{display:flex;gap:6px;flex-wrap:wrap}.tag{font-size:9px;text-transform:uppercase;letter-spacing:.1em;padding:6px 8px;border:1px solid var(--line);border-radius:999px}
+/* chapters */
+.chapters{background:var(--dark);color:#f6ecdf}.chapters .eyebrow{color:#dca878}.chapter-intro{display:flex;justify-content:space-between;gap:40px;align-items:end}.chapter-intro p{max-width:430px;color:#bfb0a4}.chapter-list{margin-top:40px;border-bottom:1px solid rgba(255,255,255,.14)}.chapter{border-top:1px solid rgba(255,255,255,.14)}.chapter-btn{width:100%;padding:22px 0;border:0;background:none;color:inherit;text-align:left;display:grid;grid-template-columns:55px 1fr auto auto;gap:18px;align-items:center;cursor:pointer}.chapter-btn .n{font-family:"Cormorant Garamond",serif;font-size:24px;color:#c9a98d}.chapter-btn h3{font-size:29px;font-weight:400;margin:0}.chapter-btn .meta{font-size:9px;letter-spacing:.13em;text-transform:uppercase;color:#a9998d}.status{font-size:8px;letter-spacing:.13em;text-transform:uppercase;padding:6px 8px;border:1px solid rgba(255,255,255,.22);border-radius:999px}.status.live{color:#e9b479;border-color:#b97e55}.chev{transition:.2s}.chapter.open .chev{transform:rotate(45deg)}.chapter-body{display:grid;grid-template-rows:0fr;transition:grid-template-rows .3s}.chapter-body>div{overflow:hidden}.chapter-body p{max-width:760px;margin:0 0 24px 73px;padding:0 0 4px;font-family:"Cormorant Garamond",serif;font-size:20px;line-height:1.55;color:#d1c2b5}.chapter.open .chapter-body{grid-template-rows:1fr}
+/* quote rail */
+.quotes{background:var(--wine);color:#fff4e7;overflow:hidden}.quote-track{display:flex;gap:14px;overflow:auto;scroll-snap-type:x mandatory;padding:10px max(20px,calc((100vw - 1160px)/2)) 24px;scrollbar-width:none}.quote-track::-webkit-scrollbar{display:none}.quote-card{flex:0 0 min(420px,82vw);min-height:270px;border:1px solid rgba(255,255,255,.22);padding:30px;display:flex;flex-direction:column;justify-content:space-between;scroll-snap-align:start}.quote-card blockquote{font-family:"Cormorant Garamond",serif;font-size:30px;line-height:1.15;font-style:italic;margin:0}.quote-card cite{font-style:normal;font-size:9px;text-transform:uppercase;letter-spacing:.16em;opacity:.65}
+/* soundtrack */
+.soundtrack{background:#e9dcc9}.sound-grid{display:grid;grid-template-columns:.78fr 1.22fr;gap:70px;align-items:start}.album{aspect-ratio:1;background:linear-gradient(145deg,rgba(69,48,38,.05),rgba(69,48,38,.18)),url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1000&q=85') center/cover;box-shadow:var(--shadow);padding:26px;display:flex;flex-direction:column;justify-content:flex-end;color:#fff}.album b{font-family:"Cormorant Garamond",serif;font-size:40px;line-height:.9}.album span{font-size:9px;text-transform:uppercase;letter-spacing:.16em;margin-top:10px}.tracks{border-top:1px solid var(--line)}.track{display:grid;grid-template-columns:35px 1fr auto;gap:12px;padding:15px 0;border-bottom:1px solid var(--line);align-items:center}.track .tn{font-family:"Cormorant Garamond",serif;font-size:20px;color:var(--rust)}.track b{font-size:12px;font-weight:500}.track small{display:block;color:var(--muted);font-size:10px;margin-top:3px}.track em{font-style:normal;font-size:8px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+/* next */
+.next{background:var(--moss);color:#f5ecdf}.next-card{border:1px solid rgba(255,255,255,.22);padding:42px;display:grid;grid-template-columns:1fr auto;gap:30px;align-items:center}.next h2{font-size:clamp(45px,7vw,78px);line-height:.9;margin:10px 0 18px}.next p{font-family:"Cormorant Garamond",serif;font-size:22px;max-width:620px;line-height:1.4}.datebox{text-align:center;border-left:1px solid rgba(255,255,255,.2);padding-left:40px;min-width:210px}.datebox strong{display:block;font-family:"Cormorant Garamond",serif;font-size:48px;font-weight:400}.datebox span{font-size:9px;text-transform:uppercase;letter-spacing:.16em;opacity:.7}
+footer{background:#201c19;color:#b8a89a;padding:35px 0}.foot{display:flex;justify-content:space-between;gap:25px;font-size:9px;text-transform:uppercase;letter-spacing:.14em}.fade{opacity:0;transform:translateY(18px);transition:.6s ease}.fade.show{opacity:1;transform:none}
+@media(max-width:820px){
+ .wrap{width:min(100% - 30px,1160px)}section{padding:72px 0}.links{position:fixed;inset:72px 0 0;background:#28231f;padding:34px 24px;display:flex;flex-direction:column;align-items:flex-start;gap:0;transform:translateX(100%);transition:.25s}.links.open{transform:none}.links a{font-family:"Cormorant Garamond",serif;font-size:32px;text-transform:none;letter-spacing:0;width:100%;padding:14px 0;border-bottom:1px solid rgba(255,255,255,.12)}.menu{display:block}.hero{min-height:92svh;background-position:58% center}.hero-copy{padding:125px 0 45px}.hero h1{font-size:clamp(68px,22vw,105px);margin:20px 0 28px}.hero .sub{max-width:92%;font-size:22px}.release-pill{display:none}.actions{display:grid;grid-template-columns:1fr 1fr}.actions .btn:first-child{grid-column:1/-1}.nowin{grid-template-columns:auto 1fr;padding:16px 0}.nowin>a{grid-column:2}.story-grid,.sound-grid{grid-template-columns:1fr;gap:38px}.story-note{transform:rotate(.6deg)}.scrap-head{display:block}.board{min-height:auto;display:grid;gap:14px;margin-top:30px}.paper,.paper.one,.paper.two,.paper.three,.paper.four,.paper.five{position:relative;inset:auto;width:auto;transform:none}.paper:nth-child(even){transform:rotate(.7deg)}.paper:nth-child(odd){transform:rotate(-.5deg)}.character-grid{grid-template-columns:1fr}.character{min-height:280px}.chapter-intro{display:block}.chapter-btn{grid-template-columns:38px 1fr auto}.chapter-btn .meta{display:none}.chapter-body p{margin-left:0}.quote-card{flex-basis:86vw}.next-card{grid-template-columns:1fr;padding:30px}.datebox{border-left:0;border-top:1px solid rgba(255,255,255,.2);padding:25px 0 0;text-align:left}.foot{flex-direction:column}.track{grid-template-columns:30px 1fr}.track em{grid-column:2}.display{font-size:50px}}
+@media(max-width:420px){.actions{grid-template-columns:1fr}.actions .btn:first-child{grid-column:auto}.hero h1{font-size:70px}.chapter-btn h3{font-size:25px}.status{display:none}.quote-card blockquote{font-size:27px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}.fade{opacity:1;transform:none}}
+
+.chapter-read{display:inline-flex;align-items:center;gap:8px;margin-top:16px;padding:11px 15px;border:1px solid currentColor;text-decoration:none;color:var(--rust);font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+.calendar-btn{cursor:pointer;border:1px solid rgba(255,255,255,.5);background:transparent;color:#fff8ee;font:inherit}
+.calendar-btn:hover{background:#fff8ee;color:#2e2925}
+.calendar-note{font-size:10px;opacity:.65;margin-top:12px;line-height:1.55}
+@media(max-width:760px){.chapter-read{width:100%;justify-content:center;min-height:46px}.calendar-btn{width:100%;justify-content:center;min-height:48px}}
+
+
+/* NEXT DROP */
+.next-drop{position:relative;overflow:hidden;background:#211d1a;color:#f5ecdf}
+.next-drop:before{content:"03";position:absolute;right:-.03em;top:-.25em;font-family:"Cormorant Garamond",serif;font-size:clamp(190px,31vw,520px);line-height:1;color:rgba(255,255,255,.025);pointer-events:none}
+.drop-grid{position:relative;z-index:1;display:grid;grid-template-columns:minmax(0,1fr) minmax(320px,.8fr);gap:70px;align-items:end}
+.drop-kicker{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#c99a5b;margin-bottom:20px}
+.drop-title{font-family:"Cormorant Garamond",serif;font-size:clamp(58px,8vw,118px);font-weight:400;line-height:.82;letter-spacing:-.045em;margin:0}
+.drop-title em{font-weight:400;color:#c99a5b}
+.drop-copy{max-width:560px;margin-top:28px;color:#cdbfb1;font-size:13px;line-height:1.8}
+.drop-meta{display:flex;gap:10px;flex-wrap:wrap;margin-top:28px}
+.drop-pill{border:1px solid rgba(255,255,255,.2);padding:9px 12px;font-size:9px;letter-spacing:.15em;text-transform:uppercase}
+.countdown{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid rgba(255,255,255,.2);border-bottom:1px solid rgba(255,255,255,.2)}
+.timebox{padding:25px 8px 22px;text-align:center;border-right:1px solid rgba(255,255,255,.15)}
+.timebox:last-child{border-right:0}
+.timebox strong{display:block;font-family:"Cormorant Garamond",serif;font-size:clamp(36px,5vw,64px);font-weight:400;line-height:1}
+.timebox span{display:block;margin-top:8px;font-size:8px;letter-spacing:.18em;text-transform:uppercase;opacity:.55}
+.drop-status{margin-top:18px;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:#c99a5b}
+.drop-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:24px}
+.drop-actions .btn{min-height:46px}
+@media(max-width:760px){
+ .drop-grid{grid-template-columns:1fr;gap:42px}
+ .next-drop:before{font-size:260px;right:-35px;top:20px}
+ .drop-title{font-size:clamp(58px,20vw,82px)}
+ .countdown{width:100%}
+ .timebox{padding:19px 3px 17px}
+ .timebox strong{font-size:38px}
+ .drop-actions{display:grid;grid-template-columns:1fr}
+ .drop-actions .btn{width:100%;justify-content:center}
+}
+
+</style>
+</head>
+<body>
+<nav class="nav" id="nav"><div class="wrap navin"><a class="brand" href="#top">TVOU.</a><div class="links" id="links"><a href="#story">Story</a><a href="#world">Scrapbook</a><a href="#characters">Characters</a><a href="#chapters">Chapters</a><a href="#quotes">Quotes</a><a href="#playlist">Playlist</a><a href="https://www.wattpad.com/story/416263344-the-version-of-you" target="_blank" rel="noopener">Wattpad ↗</a></div><button class="menu" id="menu" aria-label="Open menu" aria-expanded="false"><span></span></button></div></nav>
+<header class="hero" id="top"><div class="wrap"><div class="hero-copy"><div class="eyebrow" style="color:#f0c99f">Wellington, Michigan · a slow-burn romance</div><h1>The <em>Version</em> Of You</h1><div class="sub">Sometimes you don't fall in love with a person. Sometimes you fall in love with the version of them you created.</div><div class="actions"><a class="btn light" href="https://www.wattpad.com/story/416263344-the-version-of-you" target="_blank" rel="noopener">Read on Wattpad ↗</a><a class="btn ghost" href="#chapters">Story so far</a><a class="btn ghost" href="#world">Enter Wellington</a></div></div></div><div class="release-pill"><span>Currently publishing</span><b>2 chapters live</b><span>New chapter · Thursday · 18:00 GMT−3</span></div></header>
+
+<section class="next-drop" id="next-drop">
+  <div class="wrap drop-grid">
+    <div>
+      <div class="drop-kicker">Next drop · Wattpad</div>
+      <h2 class="drop-title">Chapter <em>03</em></h2>
+      <p class="drop-copy">The story keeps moving. Chloe and Austin have barely started talking — and one chemistry problem is about to give them a reason to keep doing it.</p>
+      <div class="drop-meta">
+        <span class="drop-pill">Thursday</span>
+        <span class="drop-pill">18:00 · GMT−3</span>
+        <span class="drop-pill">New chapter weekly</span>
+      </div>
+    </div>
+    <div>
+      <div class="countdown" aria-label="Countdown to next chapter">
+        <div class="timebox"><strong id="cdDays">00</strong><span>Days</span></div>
+        <div class="timebox"><strong id="cdHours">00</strong><span>Hours</span></div>
+        <div class="timebox"><strong id="cdMinutes">00</strong><span>Minutes</span></div>
+        <div class="timebox"><strong id="cdSeconds">00</strong><span>Seconds</span></div>
+      </div>
+      <div class="drop-status" id="dropStatus">Counting down to Thursday · 18:00 GMT−3</div>
+      <div class="drop-actions">
+        <a class="btn ghost" href="https://www.wattpad.com/story/416263344-the-version-of-you" target="_blank" rel="noopener">Open Wattpad ↗</a>
+        <button class="btn ghost calendar-btn" id="dropCalendarReminder" type="button">＋ Add reminder</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<main>
+<section class="now"><div class="wrap nowin"><div class="live-dot"></div><div><strong>Chapter 02 is out now.</strong><p>New chapter every Thursday at 6:00 PM</p></div><a href="https://www.wattpad.com/1658350577-the-version-of-you-chapter-2" target="_blank" rel="noopener">Read Chapter 02 ↗</a></div></section>
+<section id="story"><div class="wrap story-grid"><div class="fade"><div class="eyebrow">01 — The story</div><h2 class="display">The person you know.<br><em>The person they are.</em></h2><p class="copy">Chloe Reed is fifteen, living in a town where Friday-night football is practically a civic duty and everybody seems to know everybody. Seven months with Thomas Miller feel like proof that she understands love. Then the small things stop adding up — and Austin Prant, a boy she barely noticed at first, becomes the person willing to tell her what no one else will.</p><p class="small">A story about certainty, first love, betrayal, friendship, and the quiet way someone unexpected can become important before you even realize it's happening.</p></div><aside class="story-note fade"><blockquote>“I had built an entire house out of explanations.”</blockquote><small>Chloe · Chapter 8</small></aside></div></section>
+<section class="scrap" id="world"><div class="wrap"><div class="scrap-head fade"><div><div class="eyebrow">02 — Wellington scrapbook</div><h2 class="display">The little things<br>that become <em>everything.</em></h2></div><p class="small">Not lore for the sake of lore. These are the objects, places and tiny moments that actually live inside Chloe's story.</p></div><div class="board">
+<article class="paper one fade"><div class="eyebrow">Friday · 7:00 PM</div><h3>Wellington Football</h3><p>Cold metal bleachers, green-and-white storefronts, popcorn, thermoses and field lights bright enough to make the November sky look darker.</p><div class="ticket"><span>WHS</span><span>50 YD</span><span>HOME</span></div></article>
+<article class="paper two fade"><div class="eyebrow">Chemistry</div><div class="chem">M = mol / L</div><h3>“You got a 98.”</h3><p>Solutions, molarity, acids and bases — and the subject Austin needs help with more than he would probably like to admit.</p></article>
+<article class="paper three fade"><div class="eyebrow">Chloe's phone</div><h3>Things that look small.</h3><div class="msg">sorry. tired.</div><div class="msg me">sleep well.</div><div class="msg">sorry can't today</div><p style="margin-top:12px">Sometimes a whole relationship changes one short message at a time.</p></article>
+<article class="paper four fade"><div class="eyebrow">Main Street</div><div class="scribble">chai, cinnamon on top.</div><p>The same coffee order. The diner. Windows fogged from the cold. Christmas lights going up across downtown. A town that remembers what you order.</p></article>
+<article class="paper five fade"><div class="eyebrow">Christmas list</div><h3>The Frame</h3><p>A lake photo from August. A little wooden frame. Something Chloe chose for Thomas while he wasn't answering her — later turned face down on her desk.</p></article>
+</div></div></section>
+<section class="characters" id="characters"><div class="wrap"><div class="eyebrow fade">03 — Characters</div><h2 class="display fade">People are more complicated<br>than the versions we make of them.</h2><div class="character-grid">
+<article class="character fade"><div><div class="grade">15 · 9th grade</div><h3>Chloe<br>Reed</h3><p>Observant enough to see what other people want, but still learning how to ask what she wants for herself.</p></div><div class="tagrow"><span class="tag">chai</span><span class="tag">chemistry</span><span class="tag">overthinks</span></div></article>
+<article class="character fade"><div><div class="grade">16 · 10th grade</div><h3>Austin<br>Prant</h3><p>Quiet, careful, good at almost everything except chemistry — and increasingly difficult for Chloe not to notice.</p></div><div class="tagrow"><span class="tag">football</span><span class="tag">truth</span><span class="tag">porsche</span></div></article>
+<article class="character fade"><div><div class="grade">18 · 12th grade</div><h3>Thomas<br>Miller</h3><p>Chloe's boyfriend of seven months. Charming, familiar, and slowly becoming harder for her to explain.</p></div><div class="tagrow"><span class="tag">football</span><span class="tag">volvo</span><span class="tag">seven months</span></div></article>
+<article class="character fade"><div><div class="grade">15 · 9th grade</div><h3>Dakota<br>Hayes</h3><p>Chloe's best friend, professional observer, and the person most likely to say the thing Chloe is trying not to think.</p></div><div class="tagrow"><span class="tag">best friend</span><span class="tag">hot chocolate</span></div></article>
+<article class="character fade"><div><div class="grade">10th grade</div><h3>Samantha<br>Evans</h3><p>A girl from Austin's grade who seems ordinary in the hallway — until one message changes the meaning of everything.</p></div><div class="tagrow"><span class="tag">chemistry</span><span class="tag">one message</span></div></article>
+<article class="character fade"><div><div class="grade">14 · 8th grade</div><h3>Christian<br>Miller</h3><p>Thomas's younger brother: frogs, science, Harper, and a friendship with Chloe that matters beyond Thomas.</p></div><div class="tagrow"><span class="tag">frogs</span><span class="tag">science</span><span class="tag">Harper</span></div></article>
+</div></div></section>
+<section class="chapters" id="chapters"><div class="wrap"><div class="chapter-intro fade"><div><div class="eyebrow">04 — Story so far</div><h2 class="display">Nine chapters written.<br><em>Two live.</em></h2></div><p class="small">Published chapters lead to Wattpad. The rest stay spoiler-light here until their Thursday comes.</p></div><div class="chapter-list" id="chapterList">
+<div class="chapter"><button class="chapter-btn"><span class="n">01</span><h3>Knowing Someone</h3><span class="meta">Wellington · rain · certainty</span><span class="status live">Live</span><span class="chev">＋</span></button><div class="chapter-body"><div><p>Wellington, Dakota, Christian, Thomas — and one almost forgettable moment with Austin at the front doors. Chloe is certain seven months means she knows Thomas. The chapter quietly asks whether certainty and knowledge are actually the same thing.</p><a class="chapter-read" href="https://www.wattpad.com/1658347671-the-version-of-you-chapter-1" target="_blank" rel="noopener">Read Chapter 1 on Wattpad ↗</a></div></div></div>
+<div class="chapter"><button class="chapter-btn"><span class="n">02</span><h3>Friday Night Lights</h3><span class="meta">Football · cold · one look back</span><span class="status live">Live</span><span class="chev">＋</span></button><div class="chapter-body"><div><p>Friday night belongs to Wellington football. Thomas is the reason Chloe came, but Austin becomes visible in a new way on the field — focused, serious, and unexpectedly hard not to watch.</p><a class="chapter-read" href="https://www.wattpad.com/1658350577-the-version-of-you-chapter-2" target="_blank" rel="noopener">Read Chapter 2 on Wattpad ↗</a></div></div></div>
+<div class="chapter"><button class="chapter-btn"><span class="n">03</span><h3>Chemistry</h3><span class="meta">Molarity · first conversations</span><span class="status">Locked</span><span class="chev">＋</span></button><div class="chapter-body"><div><p>Thomas tells Austin that Chloe is good at chemistry. What should be ordinary tutoring creates an easy new rhythm between them.</p></div></div></div>
+<div class="chapter"><button class="chapter-btn"><span class="n">04</span><h3>Before Thanksgiving</h3><span class="meta">Porsche · family · little doubts</span><span class="status">Locked</span><span class="chev">＋</span></button><div class="chapter-body"><div><p>The week feels normal on the surface. Small details begin to sit strangely beside the certainty Chloe wants to keep.</p></div></div></div>
+<div class="chapter"><button class="chapter-btn"><span class="n">05</span><h3>Thanksgiving</h3><span class="meta">Warmth · belonging · proof</span><span class="status">Locked</span><span class="chev">＋</span></button><div class="chapter-body"><div><p>Chloe is welcomed into Thomas's family and feels as though she has been given proof that their relationship belongs somewhere permanent.</p></div></div></div>
+<div class="chapter"><button class="chapter-btn"><span class="n">06</span><h3>Probably</h3><span class="meta">Distance · texts · explanations</span><span class="status">Locked</span><span class="chev">＋</span></button><div class="chapter-body"><div><p>Messages get shorter. Chloe notices, explains, excuses and waits. Nothing is clearly wrong — which gives her room to keep explaining it.</p></div></div></div>
+<div class="chapter"><button class="chapter-btn"><span class="n">07</span><h3>Bad Weeks End</h3><span class="meta">Waiting · the frame · Austin</span><span class="status">Locked</span><span class="chev">＋</span></button><div class="chapter-body"><div><p>A Saturday of waiting, a Christmas frame, and small reasons to think about Austin. Thomas is just having a bad week. Bad weeks end. Don't they?</p></div></div></div>
+<div class="chapter"><button class="chapter-btn"><span class="n">08</span><h3>The Truth</h3><span class="meta">Samantha · one message</span><span class="status">Locked</span><span class="chev">＋</span></button><div class="chapter-body"><div><p>After school, Austin asks Chloe if they can talk about Thomas. One message is enough to make seven months suddenly look different.</p></div></div></div>
+<div class="chapter"><button class="chapter-btn"><span class="n">09</span><h3>Less Alone</h3><span class="meta">Aftermath · honesty · Austin</span><span class="status">Locked</span><span class="chev">＋</span></button><div class="chapter-body"><div><p>Chloe starts sorting through all the small things she had explained away. Dakota stays. Later, Austin does too.</p></div></div></div>
+</div><div style="margin-top:28px"><a class="btn ghost" href="https://www.wattpad.com/story/416263344-the-version-of-you" target="_blank" rel="noopener">Read published chapters on Wattpad ↗</a></div></div></section>
+<section class="quotes" id="quotes"><div class="wrap"><div class="eyebrow fade" style="color:#efbd91">05 — Lines from the story</div><h2 class="display fade">Things that stay.</h2></div><div class="quote-track">
+<article class="quote-card"><blockquote>“Sometimes you fall in love with the version of them you created.”</blockquote><cite>Chloe · Chapter 1</cite></article>
+<article class="quote-card"><blockquote>“You see very clearly what other people want. I'd love to read what you want.”</blockquote><cite>Mrs. Delgado · Chapter 8</cite></article>
+<article class="quote-card"><blockquote>“Because you deserve to know.”</blockquote><cite>Austin · Chapter 8</cite></article>
+<article class="quote-card"><blockquote>“I had built an entire house out of explanations.”</blockquote><cite>Chloe · Chapter 8</cite></article>
+<article class="quote-card"><blockquote>“You thought you knew the version of him he showed you.”</blockquote><cite>Dakota · Chapter 9</cite></article>
+<article class="quote-card"><blockquote>“Not happy. Definitely not. Just— less alone.”</blockquote><cite>Chloe · Chapter 9</cite></article>
+</div></section>
+<section class="soundtrack" id="playlist"><div class="wrap sound-grid"><div class="album fade"><b>The Version<br>Of You</b><span>unofficial story soundtrack · vol. 01</span></div><div class="fade"><div class="eyebrow">06 — Playlist</div><h2 class="display">Songs for the<br><em>version in your head.</em></h2><p class="small">A first moodboard playlist — suggestions, not story canon. We can swap any of these as you decide what actually belongs to Chloe and Austin.</p><div class="tracks">
+<div class="track"><span class="tn">01</span><div><b>About You — The 1975</b><small>memory that refuses to leave</small></div><em>Thomas / Chloe</em></div>
+<div class="track"><span class="tn">02</span><div><b>Scott Street — Phoebe Bridgers</b><small>familiar places, unfamiliar feelings</small></div><em>Wellington</em></div>
+<div class="track"><span class="tn">03</span><div><b>ceilings — Lizzy McAlpine</b><small>the version you build in your head</small></div><em>Chloe</em></div>
+<div class="track"><span class="tn">04</span><div><b>The Night We Met — Lord Huron</b><small>when the past changes shape</small></div><em>the cracks</em></div>
+<div class="track"><span class="tn">05</span><div><b>Apocalypse — Cigarettes After Sex</b><small>cold nights and things left unsaid</small></div><em>slow burn</em></div>
+<div class="track"><span class="tn">06</span><div><b>Glue Song — beabadoobee</b><small>for later, when it becomes softer</small></div><em>Austin / Chloe</em></div>
+</div></div></div></section>
+<section class="next"><div class="wrap"><div class="next-card fade"><div><div class="eyebrow" style="color:#e7b987">07 — Thursday club</div><h2>See you next<br>Thursday.</h2><p>The published story unfolds one chapter at a time. Chapter 3 is next — no giant spoiler dump, just enough to make you come back.</p><a class="btn ghost" href="https://www.wattpad.com/story/416263344-the-version-of-you" target="_blank" rel="noopener">Follow the story on Wattpad ↗</a><button class="btn ghost calendar-btn" id="calendarReminder" type="button">＋ Add Thursday reminder</button><div class="calendar-note">Adds a weekly 18:00 reminder to your calendar. Works with Apple Calendar, Google Calendar and most calendar apps via .ics.</div></div><div class="datebox"><span>Every Thursday</span><strong>18:00</strong><span>Wattpad update</span></div></div></div></section>
+</main>
+<footer><div class="wrap foot"><span>The Version Of You · © 2026, Ivo</span><span>Wellington, Michigan · Draft 1</span></div></footer>
+<script>
+const nav=document.getElementById('nav'),menu=document.getElementById('menu'),links=document.getElementById('links');
+addEventListener('scroll',()=>nav.classList.toggle('scrolled',scrollY>30));
+menu.addEventListener('click',()=>{const o=links.classList.toggle('open');menu.classList.toggle('open',o);menu.setAttribute('aria-expanded',o);document.body.classList.toggle('menu-open',o)});
+links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{links.classList.remove('open');menu.classList.remove('open');menu.setAttribute('aria-expanded','false');document.body.classList.remove('menu-open')}));
+document.querySelectorAll('.chapter-btn').forEach(b=>b.addEventListener('click',()=>b.closest('.chapter').classList.toggle('open')));
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('show');io.unobserve(e.target)}}),{threshold:.12});document.querySelectorAll('.fade').forEach(e=>io.observe(e));
+
+const calBtn=document.getElementById('calendarReminder');
+if(calBtn){calBtn.addEventListener('click',()=>{
+  const now=new Date();
+  const d=new Date(now);
+  let add=(4-d.getDay()+7)%7;
+  if(add===0 && (d.getHours()>18 || (d.getHours()===18 && d.getMinutes()>0))) add=7;
+  d.setDate(d.getDate()+add); d.setHours(18,0,0,0);
+  const pad=n=>String(n).padStart(2,'0');
+  const local=`${d.getUTCFullYear()}${pad(d.getUTCMonth()+1)}${pad(d.getUTCDate())}T210000Z`;
+  const uid=`tvou-thursday-${Date.now()}@the-version-of-you`;
+  const ics=[
+    'BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//The Version Of You//Thursday Club//EN',
+    'CALSCALE:GREGORIAN','BEGIN:VEVENT',`UID:${uid}`,`DTSTART:${local}`,
+    'DURATION:PT15M','RRULE:FREQ=WEEKLY;BYDAY=TH',
+    'SUMMARY:The Version Of You — new chapter',
+    'DESCRIPTION:New chapter of The Version Of You on Wattpad. Read it here: https://www.wattpad.com/story/416263344-the-version-of-you',
+    'URL:https://www.wattpad.com/story/416263344-the-version-of-you',
+    'BEGIN:VALARM','TRIGGER:-PT10M','ACTION:DISPLAY','DESCRIPTION:New The Version Of You chapter in 10 minutes','END:VALARM',
+    'END:VEVENT','END:VCALENDAR'
+  ].join('\r\n');
+  const blob=new Blob([ics],{type:'text/calendar;charset=utf-8'});
+  const url=URL.createObjectURL(blob);
+  const a=document.createElement('a'); a.href=url; a.download='the-version-of-you-thursday-reminder.ics';
+  document.body.appendChild(a); a.click(); a.remove(); setTimeout(()=>URL.revokeObjectURL(url),1000);
+})}
+
+
+function nextThursdayAtSix(){
+  const now=new Date();
+  // 18:00 at GMT-3 is 21:00 UTC.
+  const utcDay=now.getUTCDay();
+  let add=(4-utcDay+7)%7;
+  const target=new Date(Date.UTC(now.getUTCFullYear(),now.getUTCMonth(),now.getUTCDate()+add,21,0,0));
+  if(target<=now) target.setUTCDate(target.getUTCDate()+7);
+  return target;
+}
+function updateNextDrop(){
+  const target=nextThursdayAtSix(), now=new Date(), diff=Math.max(0,target-now);
+  const d=Math.floor(diff/86400000);
+  const h=Math.floor(diff%86400000/3600000);
+  const m=Math.floor(diff%3600000/60000);
+  const s=Math.floor(diff%60000/1000);
+  const fmt=n=>String(n).padStart(2,'0');
+  const ids={cdDays:d,cdHours:h,cdMinutes:m,cdSeconds:s};
+  Object.entries(ids).forEach(([id,v])=>{const el=document.getElementById(id);if(el)el.textContent=fmt(v)});
+}
+updateNextDrop(); setInterval(updateNextDrop,1000);
+
+const dropCal=document.getElementById('dropCalendarReminder');
+if(dropCal){
+ dropCal.addEventListener('click',()=>{
+   const d=nextThursdayAtSix(), pad=n=>String(n).padStart(2,'0');
+   const local=`${d.getUTCFullYear()}${pad(d.getUTCMonth()+1)}${pad(d.getUTCDate())}T210000Z`;
+   const ics=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//The Version Of You//Next Drop//EN','CALSCALE:GREGORIAN','BEGIN:VEVENT',
+   `UID:tvou-next-drop-${d.getTime()}@the-version-of-you`,`DTSTART:${local}`,'DURATION:PT15M',
+   'SUMMARY:The Version Of You — new chapter',
+   'DESCRIPTION:A new chapter of The Version Of You is live on Wattpad: https://www.wattpad.com/story/416263344-the-version-of-you',
+   'URL:https://www.wattpad.com/story/416263344-the-version-of-you',
+   'BEGIN:VALARM','TRIGGER:-PT10M','ACTION:DISPLAY','DESCRIPTION:The Version Of You drops in 10 minutes','END:VALARM',
+   'END:VEVENT','END:VCALENDAR'].join('\r\n');
+   const blob=new Blob([ics],{type:'text/calendar;charset=utf-8'});
+   const url=URL.createObjectURL(blob), a=document.createElement('a');
+   a.href=url;a.download='the-version-of-you-next-drop.ics';document.body.appendChild(a);a.click();a.remove();
+   setTimeout(()=>URL.revokeObjectURL(url),1000);
+ });
+}
+
+</script>
+</body></html>
